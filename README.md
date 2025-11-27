@@ -4,6 +4,20 @@
 
 ---
 
+## Repo Name & Positioning
+
+- Repo: `engineering-portfolio-mbb3-mitch`
+- Positioning: A curated showcase of my engineering projects—spanning internal tools, developer experience, prototypes, and pragmatic solutions across the stack.
+
+## Folder Layout
+
+```
+/engineering-portfolio-mbb3-mitch
+  /assets            # Screenshots, diagrams, logos (assets/<project>/...)
+  /projects          # Individual project profiles: projects/<repo>.md
+  README.md          # Main portfolio page
+```
+
 ## Highlights
 
 - 🛠 Builder of internal tools; developer productivity and experience focus.
@@ -16,99 +30,36 @@
 
 ## Project Index
 
-| Project                    | Category          | Stack                | Links                        | 1-line Value                       |
-|----------------------------|-------------------|----------------------|------------------------------|-------------------------------------|
-| MountainPro (mtnprov1)     | Product Tooling   | Python, Web          | [Repo](...)                  | Speculative: Trip planning toolkit  |
-| AcroApe                    | Experiments       | Node.js, Web         | [Repo](...)                  | Speculative: Acrobatic game demo    |
-| AcroBackendApp             | Product Backend   | Python, API          | [Repo](...)                  | Speculative: App backend for Acro   |
-| AcroFrontendApp            | Product Frontend  | React                | [Repo](...)                  | Speculative: Web frontend for Acro  |
-| cfay                       | Personal Dev      | Python, Data         | [Repo](...)                  | Speculative: Tracking calisthenics  |
-| cfay-sxf-challenges        | Experiments       | Python, CLI          | [Repo](...)                  | Speculative: Challenge tracker      |
-| programmer-dvorak-typing-game | Experiment     | JS, Game             | [Repo](...)                  | Speculative: Typing skill builder   |
-| Diablo2RLoader             | Games/Tools       | C#, WinForms         | [Repo](...)                  | Speculative: Game mod loader        |
-| nft-art-generator          | Creative Tooling  | Python/JS            | [Repo](...)                  | Speculative: NFT generation script  |
-| Overlay                    | DevTools/DX       | Electron, Web        | [Repo](...)                  | Speculative: Desktop overlay app    |
-| odoo-xmlrpc-promise        | OSS Integration   | Node.js              | [Repo](...)                  | XML-RPC for Odoo                    |
-| drone                      | Infra/DevOps      | Python               | [Repo](...)                  | Speculative: Automation script      |
-| tentemechouietplus         | Experiments       | Python               | [Repo](...)                  | Speculative: Prototype project      |
-| amazazing-game             | Games/Prototype   | JS/Game              | [Repo](...)                  | Speculative: Game experiment        |
-| MUISCRR-boilerplate        | DX/Boilerplate    | JS/React             | [Repo](...)                  | Speculative: App starter kit        |
-| personal_page              | Product           | Web, JS, HTML/CSS    | [Repo](...)                  | Personal web profile                |
-| odoo (fork)                | OSS/Fork          | Python               | [Repo](...)                  | Odoo source fork                    |
+Only showing projects with completed writeups.
 
-⚠️ *All summaries are speculative. See individual project pages for details.*
+| Project | Category | Stack | Links | 1-line Value |
+|---------|----------|-------|-------|---------------|
+| Calisthenics For A Year | Product | Django, DRF, React | [Profile](projects/cfay.md) · [Repo](https://github.com/mbb3-mitch/Calisthenics-For-A-Year) · [Live](https://calisthenicsforayear.com/) | Skill progression tracker with an API-first backend |
+| CFAY SFX Challenges | Product | Django, DRF, React | [Profile](projects/cfay-sxf-challenges.md) · [Repo](https://github.com/mbb3/cfay-sxf-challenges) · [Live](https://challenges.calisthenicsforayear.com/#/) | Workout logging + analytics for challenge cohorts |
+| Programmer Dvorak Typing Game | Experiment | React, Express | [Profile](projects/programmer-dvorak-typing-game.md) · [Repo](https://github.com/mbb3/programmer-dvorak-typing-game) · [Live](https://typingdvorak.com/) | Dvorak-focused typing drills with live stats |
 
 ---
 
 ## Project Groups
 
-### 🛠 Product & Tooling
+### 🏋️‍♂️ Fitness Platforms
 
-- **MountainPro (mtnprov1)**  
-  Trip planning for outdoor activities (speculative).  
-  ![Screenshot](assets/mountainpro/overview.png)
-  [Read more →](projects/mountainpro.md)
+- **Calisthenics For A Year**  
+  Track skill progressions with Django/DRF + React; live at https://calisthenicsforayear.com/.  
+  ![Skill detail](assets/cfay/skill-detail.png)  
+  [Read more →](projects/cfay.md)
 
-- **AcroApe / AcroBackendApp / AcroFrontendApp**  
-  Full-stack acrobatics app (speculative).
-  ![Screenshot](assets/acroape/demo.gif)
-  [Read more →](projects/acroape.md)
+- **CFAY SFX Challenges**  
+  Challenge-focused workout logger with analytics dashboards.  
+  ![Workout dashboard](assets/cfay-sfx-challenges/workout-dashboard.png)  
+  [Read more →](projects/cfay-sxf-challenges.md)
 
-- **personal_page**  
-  Web profile – about me & contact.
-  ![Screenshot](assets/personal_page/profile.png)
-  [Read more →](projects/personal_page.md)
+### 🎮 Learning & Experiments
 
----
-
-### 🔧 DevTools & DX
-
-- **Overlay**  
-  Desktop overlay tool for focus/productivity (speculative).
-  ![Diagram](assets/overlay/flow.png)
-  [Read more →](projects/overlay.md)
-
-- **MUISCRR-boilerplate**  
-  Starter template for React app scaffolding (speculative).
-  ![Screenshot](assets/MUISCRR-boilerplate/start.png)
-  [Read more →](projects/MUISCRR-boilerplate.md)
-
----
-
-### 🎮 Games & Experiments
-
-- **programmer-dvorak-typing-game**  
-  Typing trainer using Dvorak layout (speculative).
-  ![Screenshot](assets/programmer-dvorak-typing-game/gameplay.gif)
+- **Programmer Dvorak Typing Game**  
+  Dvorak-specific typing drills with live stats and lesson tracks.  
+  ![Typing session](assets/programmer-dvorak-typing-game/typing-session.png)  
   [Read more →](projects/programmer-dvorak-typing-game.md)
-
-- **amazazing-game**
-- **Diablo2RLoader**
-- **cfay-sxf-challenges**
-- **tentemechouietplus**
-  *See projects for details.*
-
----
-
-### ⚙️ Infra / DevOps
-
-- **drone**  
-  Automation script/tooling (speculative).
-  ![Screenshot](assets/drone/automation.png)
-  [Read more →](projects/drone.md)
-
----
-
-### 🔗 OSS & Integrations
-
-- **odoo-xmlrpc-promise**  
-  Odoo integration library.
-  ![Diagram](assets/odoo-xmlrpc-promise/flow.png)
-  [Read more →](projects/odoo-xmlrpc-promise.md)
-
-- **odoo (fork)**  
-  Upstream source fork.
-  [Read more →](projects/odoo.md)
 
 ---
 
@@ -116,12 +67,49 @@
 
 - Browse highlighted projects above.
 - Visit `/projects/<repo>.md` for a deep dive (case studies, stack, notes, screenshots).
-- Want more context? Reach out via [personal_page](...).
+- Want more context? Reach out anytime.
 
----
+## Per-Project Template
 
-## Assets
+- Use `projects/TEMPLATE.md` as the starting point for each profile.
+- Save screenshots and diagrams in `assets/<project>/` and reference them with `![desc](assets/<project>/<image>.png)`.
 
-Screenshots, diagrams, and visuals for each project live in `/assets/<project>/...`.
+## Next Actions Checklist
 
----
+- Add screenshots quickly: take OS screenshots, save in `assets/<project>/`, name them clearly (`overview.png`, `feature1.png`), and reference in project pages.
+- Keep content current: update `/projects/<repo>.md` with new features, decisions, or outcomes; add visuals for major UI/architecture changes.
+- Optional: enable GitHub Pages (Settings → Pages → main branch → `/` root) to publish; initial content can be README-based.
+
+## Bonus: Codex README Upgrade Prompt
+
+```
+Task: Rewrite README.md for this repository to be portfolio-grade.
+
+Requirements:
+
+Keep any existing installation/usage steps accurate—do not break commands.
+
+Write an opening summary in 2–4 lines: what it is + why it exists.
+
+Add these sections if missing:
+
+Features
+
+Tech Stack
+
+Local Development
+
+Architecture / Notes (short)
+
+Roadmap (3–6 bullets)
+
+If the repo is a prototype/experiment, say so plainly.
+
+Add a “Screenshots” section with placeholders:
+
+assets/ path and image names
+
+Keep the README concise and skimmable.
+
+Output a complete updated README.md only.
+```
