@@ -1,3 +1,4 @@
+# (Under Construction)
 # Engineering Portfolio: mbb3-mitch
 
 > Building practical tools, shipping full-stack solutions, and learning by doing—this is my narrative.
@@ -62,54 +63,3 @@ Only showing projects with completed writeups.
   [Read more →](projects/programmer-dvorak-typing-game.md)
 
 ---
-
-## How to Use This Portfolio
-
-- Browse highlighted projects above.
-- Visit `/projects/<repo>.md` for a deep dive (case studies, stack, notes, screenshots).
-- Want more context? Reach out anytime.
-
-## Per-Project Template
-
-- Use `projects/TEMPLATE.md` as the starting point for each profile.
-- Save screenshots and diagrams in `assets/<project>/` and reference them with `![desc](assets/<project>/<image>.png)`.
-
-## Next Actions Checklist
-
-- Add screenshots quickly: take OS screenshots, save in `assets/<project>/`, name them clearly (`overview.png`, `feature1.png`), and reference in project pages.
-- Keep content current: update `/projects/<repo>.md` with new features, decisions, or outcomes; add visuals for major UI/architecture changes.
-- Optional: enable GitHub Pages (Settings → Pages → main branch → `/` root) to publish; initial content can be README-based.
-
-## Bonus: Codex README Upgrade Prompt
-
-```
-Task: Rewrite README.md for this repository to be portfolio-grade.
-
-Requirements:
-
-Keep any existing installation/usage steps accurate—do not break commands.
-
-Write an opening summary in 2–4 lines: what it is + why it exists.
-
-Add these sections if missing:
-
-Features
-
-Tech Stack
-
-Local Development
-
-Architecture / Notes (short)
-
-Roadmap (3–6 bullets)
-
-If the repo is a prototype/experiment, say so plainly.
-
-Add a “Screenshots” section with placeholders:
-
-assets/ path and image names
-
-Keep the README concise and skimmable.
-
-Output a complete updated README.md only.
-```
